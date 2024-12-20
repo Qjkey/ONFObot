@@ -6,7 +6,8 @@ a {
 
 body {
     margin: 0;
-    background: grey;
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-secondary-bg-color);
 }
 
 .onfo_bot {
@@ -26,7 +27,6 @@ body {
 
 .header {
     background-color: var(--tg-theme-bg-color);
-    background-color: yellow;
     padding: 20px 0px 20px 0px;
 }
 
@@ -37,8 +37,7 @@ body {
     border-radius: 10px;
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
-    /* background: var(--tg-theme-button-color); */
-    background: orange;
+    background: var(--tg-theme-button-color);
     cursor: pointer;
 }
 
@@ -50,8 +49,7 @@ body {
     border-radius: 10px;
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
-    /* background: var(--tg-theme-button-color); */
-    background: orange;
+    background: var(--tg-theme-button-color);
     cursor: pointer;
 }
 
@@ -189,24 +187,21 @@ body {
 }
 
 .books {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color: yellow;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     border-radius: 15px;
     max-width: 100%;
 }
 
 .bookev {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color: yellow;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     border-radius: 15px;
     max-width: 100%;
 }
 
 .links {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color: yellow;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     border-radius: 15px;
     max-width: 100%;
@@ -260,11 +255,9 @@ body {
     width: 100%;
     height: 70px;
     line-height: 70px;
-    /* background-color: var(--tg-theme-bottom-bar-bg-color); */
-    background-color: aqua;
+    background-color: var(--tg-theme-bottom-bar-bg-color);
     bottom: 0;
-    border-top: 1px solid black;
-    /* var(--tg-theme-section-separator-color) */
+    /* border-top: 1px solid black; */
 }
 
 .btn_tg {
