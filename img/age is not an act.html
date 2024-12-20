@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Возраст не поступок</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="profiles.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="profiles">
+        <div class="main_profiles">
+            <div class="book_profiles">
+                <br>
+                <img src="icons/age is not an act.png" alt="" class="img_profiles">
+                <br>
+                <br>
+                <p class="author_profiles">GroAlexPixel</p>
+                <p class="name_book_profiles">Возраст не поступок</p>
+                <br>
+            </div>
+            <p class="title">Описание</p>
+            <div class="links">
+                <p class="description_profiles">Влюблённым Артёму и Милане закон мешает встречатся. Ведь одному 23, другой 16...</p>                
+            </div>
+        </div>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js">
+        var tg = window.Telegram.WebApp;
+
+        tg.expand();
+
+        var BackButton = WebApp.BackButton;
+        BackButton.show();
+        WebApp.onEvent('backButtonClicked', function() {
+            window.location.href = 'books.html';
+        });
+    </script>
+</body>
