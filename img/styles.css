@@ -216,11 +216,14 @@ body {
     cursor: default; 
 }
 
-#nav a:not(:nth-child(1)) {
+#nav a {
     display: inline;
-    color: var(--tg-theme-hint-color);
     margin-bottom: -2px;
     font-size: 20px;
+}
+
+.color {
+    color: var(--tg-theme-hint-color);
 }
 
 #nav a:hover {
@@ -228,19 +231,8 @@ body {
     cursor: pointer;
 }
 
-.nav_one {
-    display: inline;
-    margin-bottom: -2px;
-    font-size: 20px;
-    margin-left: 13px;
-}
-
 .active {
     color: var(--tg-theme-button-color);    
-}
-
-.nav_three {
-    margin-right: 13px;
 }
 
 #nav {
