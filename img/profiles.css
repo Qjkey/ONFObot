@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .profiles {
-    background: grey;
+    background: var(--tg-theme-secondary-bg-color);
     text-align: center;
 }
 
@@ -9,11 +9,11 @@
     max-width: 100%;
     margin: 0;
     padding: 10px 10px 0px 10px;
-    background-color: grey;
+    background-color: var(--tg-theme-secondary-bg-color);
 }
 
 .book_profiles {
-    background-color: yellow;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     border-radius: 15px;
     max-width: 100%;
