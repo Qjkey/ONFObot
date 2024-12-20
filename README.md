@@ -6,3 +6,5 @@
 
 * [Поддержка бота](https://t.me/ONFO_help_bot);
 * [Telegram-канал бота](https://t.me/ONFOstudio);
+- [Разработчик](https://t.me/GroAlexPixel_bot?startapp);
+  
