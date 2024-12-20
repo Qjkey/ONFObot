@@ -38,6 +38,7 @@ body {
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .btn2 {
@@ -50,6 +51,7 @@ body {
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .inner {
@@ -183,6 +185,7 @@ body {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .books {
@@ -229,6 +232,7 @@ body {
 #nav a:hover {
     color: var(--tg-theme-button-color);
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .active {
@@ -261,6 +265,7 @@ body {
     color: var(--tg-theme-button-text-color);
     background: #27a7e7;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title_1 {
