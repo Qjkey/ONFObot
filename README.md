@@ -4,8 +4,8 @@
 ----------
 Ссылки:
 
-* [Поддержка бота](https://t.me/ONFO_help_bot);
-* [Telegram-канал бота](https://t.me/ONFOstudio);
+* [Поддержка бота](https://t.me/ONFO_help_bot) всегда поможет и ответит на любой вопрос;
+* [На telegram-канале бота](https://t.me/ONFOstudio) вы можете узнавать об обновлениях и читать новости;
 > Если что это ссылки на сферу бота
 - [Разработчик](https://t.me/GroAlexPixel_bot?startapp);
 
