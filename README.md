@@ -12,4 +12,4 @@
 
 Разработчик ONFObot - Алексей Дроков(или GroAlexPixel), он же редактор канала [dronifs](https://t.me/dronifs).
 ----------
-  
+ONFObot 2[beta] v0.0
