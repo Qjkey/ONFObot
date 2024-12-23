@@ -1,5 +1,5 @@
 var tg = window.Telegram.MiniApp;
-var BackButton = WebApp.BackButton;
+var BackButton = MiniApp.BackButton;
 
 BackButton.show();
 
