@@ -4,10 +4,10 @@ var tg = window.Telegram.WebApp;
 var BackButton = WebApp.BackButton;
 
 BackButton.show();
-
-// BackButton.onClick(function() {  
-//     BackButton.hide();
-// });
-// WebApp.onEvent('backButtonClicked', function() {      
-//     BackButton.hide();          
-// });
+BackButton.onClick(function() {
+    WebApp.showAlert("BackButton clicked");
+    BackButton.hide();
+});
+WebApp.onEvent('backButtonClicked', function() {
+    document.write("Test2222222222")
+});
