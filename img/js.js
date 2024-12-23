@@ -1,3 +1,5 @@
+document.write("Тест")
+
 var tg = window.Telegram.WebApp;
 var BackButton = WebApp.BackButton;
 
