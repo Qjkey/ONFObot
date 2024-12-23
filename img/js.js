@@ -5,6 +5,5 @@ var BackButton = tg.BackButton;
 
 BackButton.show();
 BackButton.onClick(function() {
-    WebApp.showAlert("BackButton clicked");
     BackButton.hide();
 });
