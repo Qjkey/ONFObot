@@ -43,4 +43,10 @@
             BackButton.hide();            
         });
     </script>
+    <script>  
+      document.ondragstart = noselect;
+      document.onselectstart = noselect;
+      document.oncontextmenu = noselect;
+      function noselect() {return false;}
+    </script>
 </body>
