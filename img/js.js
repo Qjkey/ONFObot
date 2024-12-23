@@ -6,4 +6,5 @@ var BackButton = tg.BackButton;
 BackButton.show();
 BackButton.onClick(function() {
     BackButton.hide();
+    document.write("Тест22222");
 });
