@@ -27,4 +27,10 @@
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
     <script src="js.js"></script>    
+    <script>  
+      document.ondragstart = noselect;
+      document.onselectstart = noselect;
+      document.oncontextmenu = noselect;
+      function noselect() {return false;}
+    </script> 
 </body>
