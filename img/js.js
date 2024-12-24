@@ -6,5 +6,5 @@ var BackButton = tg.BackButton;
 BackButton.show();
 BackButton.onClick(function() {
     BackButton.hide();
-    document.write("Тест22222");
+    window.location = 'https://qjkey.github.io/ONFObot/books.html'
 });
