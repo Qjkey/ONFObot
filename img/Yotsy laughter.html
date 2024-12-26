@@ -33,4 +33,21 @@
       document.oncontextmenu = noselect;
       function noselect() {return false;}
     </script> 
+    <script>
+        var tg = window.Telegram.WebApp;
+
+        var MainButton = tg.MainButton;
+        
+        tg.MainButton.text = "Читать";
+        
+        MainButton.show();
+        
+        MainButton.onClick(function() {
+            MainButton.hide();
+            document.write("228");
+        });
+        tg.onEvent('mainButtonClicked', function() {
+            MainButton.hide();    
+        });
+    </script>
 </body>
