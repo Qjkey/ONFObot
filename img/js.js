@@ -1,4 +1,5 @@
 var tg = window.Telegram.WebApp;
+
 var BackButton = tg.BackButton;
 var MainButton = tg.MainButton;
 
@@ -11,7 +12,7 @@ MainButton.onClick(function() {
     MainButton.hide();
     document.write("228");
 });
-WebApp.onEvent('mainButtonClicked', function() {
+tg.onEvent('mainButtonClicked', function() {
     MainButton.hide();    
 });
 
@@ -19,6 +20,6 @@ BackButton.onClick(function() {
     BackButton.hide();
     window.location = 'https://qjkey.github.io/ONFObot/books.html';
 });
-WebApp.onEvent('backButtonClicked', function() {
+tg.onEvent('backButtonClicked', function() {
     BackButton.hide();
 });
