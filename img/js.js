@@ -7,12 +7,18 @@ MainButton.show();
 
 tg.MainButton.text = "Читать";
 
-BackButton.onClick(function() {
-    BackButton.hide();
-    window.location = 'https://qjkey.github.io/ONFObot/books.html'
+MainButton.onClick(function() {
+    MainButton.hide();
+    document.write("228");
+});
+WebApp.onEvent('mainButtonClicked', function() {
+    MainButton.hide();    
 });
 
-// MainButton.onClick(function() {
-//   MainButton.hide();    
-//   document.write("228")
-// });
+BackButton.onClick(function() {
+    BackButton.hide();
+    window.location = 'https://qjkey.github.io/ONFObot/books.html';
+});
+WebApp.onEvent('backButtonClicked', function() {
+    BackButton.hide();
+});
