@@ -23,6 +23,7 @@
             <div class="links">
                 <p class="description_profiles">Цветы для Элджернона - культовый роман Дэниела Киза об умственно отсталом Чарли Гордоне. Он соглашается принять участие в опасном научном эксперименте в надежде стать умным… У Чарли есть двойник — мышонок Элджернон. Только Чарли понимает поведение мышонка и то, что ему самому отведена та же роль подопытной мыши.</p>                
             </div>
+            <br>
         </div>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
@@ -32,5 +33,22 @@
       document.onselectstart = noselect;
       document.oncontextmenu = noselect;
       function noselect() {return false;}
+    </script>
+        <script>
+        var tg = window.Telegram.WebApp;
+
+        var MainButton = tg.MainButton;
+        
+        tg.MainButton.text = "Читать";
+        
+        MainButton.show();
+        
+        MainButton.onClick(function() {
+            MainButton.hide();
+            window.location = 'https://qjkey.github.io/ONFObot/img/Book.html';
+        });
+        tg.onEvent('mainButtonClicked', function() {
+            MainButton.hide();    
+        });
     </script>
 </body>
