@@ -23,6 +23,7 @@
             <div class="links">
                 <p class="description_profiles">2017 год, старый типограф, рисующий обыкновенные контрастные шрифты которые никому не нужны, попадает в кому. Там он попадает в сон, на дворе 20 век, во всю пишут газеты. Александр идёт рисовать шрифты для газет, его буквы отображаются по всей стране, он становится популярным... Вдруг просыпается и всё становится на свои места.</p>                
             </div>
+            <br>
         </div>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
@@ -32,5 +33,22 @@
       document.onselectstart = noselect;
       document.oncontextmenu = noselect;
       function noselect() {return false;}
+    </script>
+        <script>
+        var tg = window.Telegram.WebApp;
+
+        var MainButton = tg.MainButton;
+        
+        tg.MainButton.text = "Читать";
+        
+        MainButton.show();
+        
+        MainButton.onClick(function() {
+            MainButton.hide();
+            window.location = 'https://qjkey.github.io/ONFObot/img/Book.html';
+        });
+        tg.onEvent('mainButtonClicked', function() {
+            MainButton.hide();    
+        });
     </script>
 </body>
