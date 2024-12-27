@@ -23,6 +23,7 @@
             <div class="links">
                 <p class="description_profiles">История о вундеркинде, который ленясь использовать свои способности попадает в трудную жизненную ситуацию.</p>                
             </div>
+            <br>
         </div>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
@@ -32,5 +33,22 @@
       document.onselectstart = noselect;
       document.oncontextmenu = noselect;
       function noselect() {return false;}
+    </script>
+        <script>
+        var tg = window.Telegram.WebApp;
+
+        var MainButton = tg.MainButton;
+        
+        tg.MainButton.text = "Читать";
+        
+        MainButton.show();
+        
+        MainButton.onClick(function() {
+            MainButton.hide();
+            window.location = 'https://qjkey.github.io/ONFObot/img/Book.html';
+        });
+        tg.onEvent('mainButtonClicked', function() {
+            MainButton.hide();    
+        });
     </script>
 </body>
