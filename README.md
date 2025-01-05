@@ -8,7 +8,7 @@
 * [Поддержка бота](https://t.me/ONFO_help_bot) всегда поможет и ответит на любой вопрос;
 * [На telegram-канале бота](https://t.me/ONFOstudio) вы можете узнавать об обновлениях и читать новости;
 > Если что это ссылки на сферу бота
-- [Разработчик](https://t.me/GroAlexPixel_bot?startapp);
+- [Разработчик](https://t.me/GroAlexPixel_bot?startapp) бота это Алексей Дроков, просто ссылка на его мини-приложение;
 
 Разработчик ONFObot - Алексей Дроков(или GroAlexPixel), он же редактор канала [dronifs](https://t.me/dronifs).
 
