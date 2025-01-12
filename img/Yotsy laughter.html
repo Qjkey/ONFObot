@@ -38,10 +38,13 @@
         var tg = window.Telegram.WebApp;
 
         var MainButton = tg.MainButton;
+        var SecondaryButton = tg.SecondaryButton;
         
         tg.MainButton.text = "Читать";
+        tg.SecondaryButton.text = "Слушать";
         
         MainButton.show();
+        SecondaryButton.show();
         
         MainButton.onClick(function() {
             MainButton.hide();
