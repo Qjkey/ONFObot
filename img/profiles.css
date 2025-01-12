@@ -10,8 +10,9 @@
     max-width: 100%;
     margin: 0;
     padding: 10px 10px 0px 10px;
-    background-color: var(--tg-theme-secondary-bg-color);
-}
+    /* background-color: var(--tg-theme-secondary-bg-color);
+} */
+    background-color: var(--tg-theme-bg-color);
 
 .book_profiles {
     background-color: var(--tg-theme-section-bg-color);
