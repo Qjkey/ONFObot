@@ -261,7 +261,7 @@ body {
     border-radius: 100px;
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
-    background: #27a7e7;
+    background: var(--tg-theme-destructive-text-color);
     cursor: pointer;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
