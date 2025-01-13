@@ -20,8 +20,7 @@ body {
 
 .main {
     max-width: 100%;
-    margin: 0;
-    padding: 0px 10px 0px 10px;
+    margin: 0;
 }
 
 .header {
@@ -190,22 +189,19 @@ body {
 
 .books {
     background-color: var(--tg-theme-section-bg-color);
-    border: none;
-    border-radius: 15px;
+    border: none;
     max-width: 100%;
 }
 
 .bookev {
     background-color: var(--tg-theme-section-bg-color);
-    border: none;
-    border-radius: 15px;
+    border: none;
     max-width: 100%;
 }
 
 .links {
     background-color: var(--tg-theme-section-bg-color);
     border: none;
-    border-radius: 15px;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
 }
