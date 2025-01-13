@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    background-color: var(--tg-theme-bg-color);
+    background-color: var(--tg-theme-header-bg-color);
     padding: 20px 0px 20px 0px;
 }
 
