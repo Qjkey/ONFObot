@@ -268,12 +268,8 @@ body {
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-destructive-text-color);
-    cursor: pointer;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.btn_tg:hover {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    text-decoration: none;
 }
 
 .title_1 {
