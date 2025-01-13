@@ -4,6 +4,10 @@ a {
     text-decoration: none;
 }
 
+.btn_a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     color: var(--tg-theme-text-color);
