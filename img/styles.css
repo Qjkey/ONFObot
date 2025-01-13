@@ -53,6 +53,7 @@ body {
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn_a {
