@@ -37,6 +37,7 @@ body {
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
     cursor: pointer;
+}
 
 .btn:hover {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
