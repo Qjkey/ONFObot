@@ -143,8 +143,8 @@ body {
     font-family: "Roboto", sans-serif;   
     font-size: 18px;
     cursor: default;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
     left: 6; 
     color: var(--tg-theme-section-header-text-color);
 }
