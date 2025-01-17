@@ -24,7 +24,8 @@ body {
 
 .main {
     max-width: 100%;
-    margin: 0;
+    margin: 0;
+
 }
 
 .header {
@@ -42,7 +43,8 @@ body {
     background: var(--tg-theme-button-color);
     cursor: default;
     text-decoration: none;
-}
+}
+
 
 .btn2 {
     font-family: "Roboto", sans-serif;
@@ -198,14 +200,16 @@ body {
 
 .books {
     background-color: var(--tg-theme-section-bg-color);
-    border: none;
+    border: none;
     max-width: 100%;
+    padding: 7px 6px 7px 6px;
 }
 
 .bookev {
     background-color: var(--tg-theme-section-bg-color);
-    border: none;
+    border: none;
     max-width: 100%;
+    padding: 7px 6px 7px 6px;
 }
 
 .links {
