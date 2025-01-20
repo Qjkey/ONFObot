@@ -8,14 +8,12 @@
 .main_profiles {
     max-width: 100%;
     margin: 0;
-    padding: 10px 10px 0px 10px;
     background-color: var(--tg-theme-secondary-bg-color);
 }
 
 .book_profiles {
     background-color: var(--tg-theme-section-bg-color);
     border: none;
-    border-radius: 15px;
     max-width: 100%;
 }
 
