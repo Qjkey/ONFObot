@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>После бала</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="profiles.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="profiles">
+        <div class="main_profiles">
+            <div class="book_profiles">
+                <br>
+                <img src="icons/2.png" alt="" class="img_profiles">
+                <br>
+                <br>
+                <p class="author_profiles">Лев Толстой</p>
+                <p class="name_book_profiles">После бала</p>
+                <br>
+            </div>
+            <br>
+            <div class="links">
+                <p class="title"><strong>Описание</strong></p>
+                <p class="description_profiles">Рассказ о любви, о чувствах к Вареньке главного героя, и о последовавшем событии после бала: сцена жестокости в отношении солдата, которой командует отец Вареньки. Этого события было достаточно, чтобы любовь приобрела совершенно другой оттенок и стала жечь душу героя.</p>                
+            </div>
+            <br>
+        </div>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
+    <script src="js.js"></script>    
+    <script>  
+      document.ondragstart = noselect;
+      document.onselectstart = noselect;
+      document.oncontextmenu = noselect;
+      function noselect() {return false;}
+    </script>
+        <script>
+        var tg = window.Telegram.WebApp;
+
+        var MainButton = tg.MainButton;
+        
+        tg.MainButton.text = "Читать";
+        
+        MainButton.show();
+        
+        MainButton.onClick(function() {
+            MainButton.hide();
+            window.location = 'https://qjkey.github.io/ONFObot/img/Book.html';
+        });
+        tg.onEvent('mainButtonClicked', function() {
+            MainButton.hide();    
+        });
+    </script>
+</body>
