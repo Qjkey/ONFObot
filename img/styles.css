@@ -45,6 +45,10 @@ body {
     text-decoration: none;
 }
 
+.btn:active {
+    transition: 0.1s;
+    transform: translateY(2px);
+}
 
 .btn2 {
     font-family: "Roboto", sans-serif;
@@ -59,8 +63,18 @@ body {
     text-decoration: none;
 }
 
+.btn2:active {
+    transition: 0.1s;
+    transform: translateY(2px);
+}
+
 .btn_a {
     text-decoration: none;
+}
+
+.btn_a:active {
+    transition: 0.1s;
+    transform: translateY(2px);
 }
 
 .inner {
@@ -278,7 +292,68 @@ body {
     text-decoration: none;
 }
 
+.btn_tg:active {
+    transition: 0.1s;
+    transform: translateY(2px);
+}
+
 .title_1 {
     font-family: "Roboro", sans-serif;
     font-size: 34px;        
+}
+
+@keyframes slideme {
+    0% {
+      left: -30px;
+      margin-left: 0px;
+    }
+    30% {
+      left: 110%;
+      margin-left: 80px;
+    }
+    100% {
+      left: 110%;
+      margin-left: 80px;
+    }
+}
+  
+.btn-new {
+    overflow: hidden;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+    color: var(--tg-theme-button-text-color);
+    background: var(--tg-theme-button-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.btn-new:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 200px;
+    margin-left: 60px;
+    background: #fff;
+    opacity: 0.5;
+    position: absolute;
+    left: -40px;
+    top: -100px;
+    z-index: 1;
+    transform: rotate(45deg);
+    transition: all 0.1s;
+    animation-name: slideme;
+    animation-duration: 3s;
+    animation-delay: 0.05s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.btn-new:active {
+    transition: 0.1s;
+    transform: translateY(2px);
 }
