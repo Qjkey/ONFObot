@@ -334,19 +334,22 @@ body {
   
 .btn-new:after {
     content: "";
+    display: block;
+    width: 30px;
+    height: 200px;
+    margin-left: 60px;
+    background: #fff;
+    opacity: 0.5;
     position: absolute;
-    top: 0;
-    left: -200px;
-    width: 60px;
-    height: 100px;
-    background-color: #fff;
-    filter: blur(30px);
-    transform: skewX(30deg) translateZ(0);
-    transition: 1s;
+    left: -40px;
+    top: -100px;
+    z-index: 1;
+    transform: rotate(45deg);
+    transition: all 0.1s;
     animation-name: slideme;
     animation-duration: 3s;
     animation-delay: 0.05s;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
