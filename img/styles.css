@@ -328,7 +328,7 @@ body {
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
-    cursor: pointer;
+    cursor: default;
     text-decoration: none;
 }
   
