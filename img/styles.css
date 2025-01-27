@@ -92,7 +92,7 @@ body {
 .inner3 {
     display: grid;
     grid-template-columns: 3fr 3fr;
-    grid-template-rows: 310px 310px 310px 310px 310px 320px;
+    grid-template-rows: 310px 310px 310px 310px 310px 310px;
 }
 
 .inner4 {
