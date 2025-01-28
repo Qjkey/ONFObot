@@ -7,3 +7,9 @@ body {
     background-color: var(--tg-theme-bg-color);
     cursor: default;
 } 
+
+* {
+    word-spacing: 3px;
+    line-height: 3px;
+    word-spacing: 2px
+}
