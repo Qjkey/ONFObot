@@ -9,7 +9,7 @@ body {
 } 
 
 * {
-    word-spacing: 3px;
-    line-height: 3px;
-    word-spacing: 2px
+    word-spacing: 10px;
+    line-height: 10px;
+    word-spacing: 10px
 }
