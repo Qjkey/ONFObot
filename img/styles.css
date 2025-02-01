@@ -249,7 +249,7 @@ body {
 }
 
 .color {
-    color: var(--tg-theme-hint-color);
+    fill: var(--tg-theme-hint-color);
 }
 
 #nav a:hover {
@@ -259,7 +259,7 @@ body {
 }
 
 .active {
-    color: var(--tg-theme-button-color);    
+    fill: var(--tg-theme-button-color);    
 }
 
 #nav {
