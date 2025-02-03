@@ -297,6 +297,11 @@ body {
     transform: translateY(2px);
 }
 
+svg:active {
+    transition: 0.1s;
+    transform: translateY(2px);
+}
+
 .title_1 {
     font-family: "Roboro", sans-serif;
     font-size: 34px;        
