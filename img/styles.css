@@ -386,6 +386,17 @@ svg:active {
     font-family: "Roboto", sans-serif;
 }
 
+.title_bookev {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #5E60F4, #E16370);   
+    font-family: "Roboto", sans-serif;   
+    font-size: 18px;
+    cursor: default;
+    left: 6;  
+}
+
 .svg_about_bookev {
     fill: var(--tg-theme-text-color)
 }
