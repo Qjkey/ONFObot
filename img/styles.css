@@ -404,7 +404,7 @@ svg:active {
 
 .logo_bookev_bar {
     width: 28px;
-    padding-top: 5px;
+    margin-bottom: 3px;
 }
 
 .logo_bookev_bar:active {
