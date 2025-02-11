@@ -29,8 +29,7 @@ body {
 }
 
 .header {
-    /* background-color: var(--tg-theme-bg-color); */
-    background-color: aqua;
+    background-color: var(--tg-theme-bg-color);
     padding: 20px 0px 20px 0px;
 }
 
@@ -219,32 +218,28 @@ body {
 }
 
 .books {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color: antiquewhite;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
 }
 
 .bookev {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color: antiquewhite;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
 }
 
 .about_bookev {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color: antiquewhite;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
 }
 
 .links {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color: antiquewhite;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
@@ -290,8 +285,7 @@ body {
     width: 100%;
     height: 55px;
     line-height: 70px;
-    /* background-color: var(--tg-theme-bg-color); */
-    background-color: blueviolet;
+    background-color: var(--tg-theme-bg-color);
     /* backdrop-filter: blur(100px); */
     bottom: 0;
     /* border-top: 1px solid black; */
