@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 a {
@@ -28,7 +29,8 @@ body {
 }
 
 .header {
-    background-color: var(--tg-theme-bg-color);
+    /* background-color: var(--tg-theme-bg-color); */
+    background-color: aqua;
     padding: 20px 0px 20px 0px;
 }
 
@@ -217,28 +219,32 @@ body {
 }
 
 .books {
-    background-color: var(--tg-theme-section-bg-color);
+    /* background-color: var(--tg-theme-section-bg-color); */
+    background-color: antiquewhite;
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
 }
 
 .bookev {
-    background-color: var(--tg-theme-section-bg-color);
+    /* background-color: var(--tg-theme-section-bg-color); */
+    background-color: antiquewhite;
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
 }
 
 .about_bookev {
-    background-color: var(--tg-theme-section-bg-color);
+    /* background-color: var(--tg-theme-section-bg-color); */
+    background-color: antiquewhite;
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
 }
 
 .links {
-    background-color: var(--tg-theme-section-bg-color);
+    /* background-color: var(--tg-theme-section-bg-color); */
+    background-color: antiquewhite;
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
@@ -284,7 +290,8 @@ body {
     width: 100%;
     height: 55px;
     line-height: 70px;
-    background-color: var(--tg-theme-bg-color);
+    /* background-color: var(--tg-theme-bg-color); */
+    background-color: blueviolet;
     /* backdrop-filter: blur(100px); */
     bottom: 0;
     /* border-top: 1px solid black; */
@@ -386,6 +393,10 @@ svg:active {
     font-family: "Roboto", sans-serif;
 }
 
+.svg_about_bookev {
+    fill: var(--tg-theme-text-color)
+}
+
 .title_bookev {
     color: transparent;    
 	-webkit-background-clip: text;
@@ -397,6 +408,12 @@ svg:active {
     left: 6;  
 }
 
-.svg_about_bookev {
-    fill: var(--tg-theme-text-color)
+.logo_bookev_bar {
+    width: 28px;
+    padding-top: 5px;
+}
+
+.logo_bookev_bar:active {
+    transition: 0.1s;
+    transform: translateY(2px);
 }
