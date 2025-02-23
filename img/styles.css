@@ -288,6 +288,10 @@ body {
     fill: var(--tg-theme-button-color);    
 }
 
+.active_bookev {
+    fill: #A362AE;    
+}
+
 #nav {
     font-family: "Roboto", sans-serif;
     justify-content: space-between;
