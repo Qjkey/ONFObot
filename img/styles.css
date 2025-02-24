@@ -89,6 +89,7 @@ body {
 
 .btn_a {
     text-decoration: none;
+    color: var(--tg-theme-link-color);
 }
 
 .btn_a:active {
