@@ -65,16 +65,16 @@ body {
 
 .btn_links {
     font-family: "Roboto", sans-serif;
-    padding: 7px 17px;
     margin-bottom: 10px;
     border: none;
     border-radius: 100px;
-    font-size: 14px;
+    font-size: 13px;
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
     cursor: default;
     text-decoration: none;
     width: 100px;
+    height: 25px;
 }
 
 .btn_links:active {
