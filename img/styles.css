@@ -68,12 +68,12 @@ body {
     margin-bottom: 10px;
     border: none;
     border-radius: 100px;
+    padding: 0px 15px;
     font-size: 13px;
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
     cursor: default;
     text-decoration: none;
-    width: 100px;
     height: 25px;
 }
 
