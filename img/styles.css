@@ -74,7 +74,12 @@ body {
     background: var(--tg-theme-button-color);
     cursor: default;
     text-decoration: none;
-    width: 40px;
+    width: 100px;
+}
+
+.btn_links:active {
+    transition: 0.1s;
+    transform: translateY(2px);
 }
 
 .btn2:active {
@@ -288,10 +293,6 @@ body {
     fill: var(--tg-theme-button-color);    
 }
 
-.active_bookev {
-    fill: #A362AE;    
-}
-
 #nav {
     font-family: "Roboto", sans-serif;
     justify-content: space-between;
@@ -430,3 +431,45 @@ svg:active {
     transition: 0.1s;
     transform: translateY(2px);
 }
+
+.img_links {
+    width: 30px;
+    /* bottom: 10px; */
+}
+
+.text_links {
+    vertical-align: 8.6px;    
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.p_links {
+    margin: 0;
+}
+
+hr {
+    background-color: var(--tg-theme-section-separator-color);
+    height: 1px;
+    border:none; 
+}
+
+.inner_faq {
+    display: grid;
+    grid-template-columns: 3fr 0.9fr;
+    grid-template-rows: 21px;
+}
+
+.item_faq {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+
+.item_faq_right {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.stroka {
+    stroke: var(--tg-theme-hint-color);
+}
+
