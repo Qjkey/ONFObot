@@ -475,3 +475,6 @@ hr {
     stroke: var(--tg-theme-hint-color);
 }
 
+.active_bookev {
+    fill: #9F61B4;
+}
