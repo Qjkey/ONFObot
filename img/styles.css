@@ -147,16 +147,19 @@ body {
 .img_bookev_1 {
     width: 100px;
     cursor: default; 
+    border-radius: 6px;
 }
 
 .img_bookev_2 {
     width: 90px;
     cursor: default; 
+    border-radius: 6px;
 }
 
 .img_bookev_3 {
     width: 80px;
     cursor: default; 
+    border-radius: 6px;
 }
 
 .place_1 {
