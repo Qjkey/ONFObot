@@ -302,7 +302,7 @@ body {
 
 #nav {
     font-family: "Roboto", sans-serif;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: fixed;
     z-index: 10;
     padding: 0px;
