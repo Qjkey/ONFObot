@@ -215,6 +215,7 @@ body {
 .name_book {
     padding: 2px;
     margin: 2px;
+    color: var(--tg-theme-text-color);
     font-size: 15px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
