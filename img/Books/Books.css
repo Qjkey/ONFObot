@@ -6,10 +6,20 @@ body {
     color: var(--tg-theme-text-color);
     background-color: var(--tg-theme-bg-color);
     cursor: default;
-    max-width: 500px;
 } 
 
 * {
     word-spacing: 5px;
     line-height: 20px;
+}
+
+div.cont {
+    text-align: center;
+    width: 100%;
+}
+  
+div.cont>div {
+    text-align: left;
+    display: inline-block;
+    max-width: 500px;
 }
