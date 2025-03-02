@@ -21,5 +21,5 @@ div.cont {
 div.cont>div {
     text-align: left;
     display: inline-block;
-    max-width: 500px;
+    max-width: 900px;
 }
