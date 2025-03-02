@@ -115,7 +115,7 @@ body {
 .inner3 {
     display: grid;
     grid-template-columns: 3fr 3fr;
-    grid-template-rows: 310px 310px 310px 310px 310px 310px 310px 310px 310px 310px;
+    grid-template-rows: 265px 265px 265px 265px 265px 265px 265px 265px 265px 265px;
 }
 
 .inner4 {
@@ -126,7 +126,14 @@ body {
 
 .item {
     text-align: center;
+    display: block;
+    text-decoration: none;
 }
+
+/* .item:active {
+    transition: 0.1s;
+    transform: translateY(2px);
+} */
 
 .item2 {
     text-align: center;
