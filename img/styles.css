@@ -102,12 +102,12 @@ body {
     text-decoration: none;
 }
 
-.btn_a:hover {
+.btn_a:active {
     transition: 0.1s;
     transform: translateY(2px);
 }
 
-.btn_aa:hover {
+.btn_aa:active {
     transition: 0.1s;
     transform: translateY(2px);
 }
