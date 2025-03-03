@@ -91,6 +91,12 @@ body {
 
 .btn_a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: var(--tg-theme-link-color);	
+    text-decoration: none;
+}
+
+.btn_aa {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: var(--tg-theme-link-color);
     display: block;	
     text-decoration: none;
