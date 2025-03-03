@@ -90,9 +90,10 @@ body {
 }
 
 .btn_a {
-    text-decoration: none;
-    color: var(--tg-theme-link-color);
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: var(--tg-theme-link-color);
+    display: block;	
+    text-decoration: none;
 }
 
 .btn_a:active {
