@@ -239,6 +239,7 @@ body {
 .name_book_12 {
     padding: 4px;
     margin: 2px;
+    color: var(--tg-theme-text-color);
     font-size: 12px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
