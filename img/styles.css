@@ -292,8 +292,7 @@ body {
 }
 
 .about_bookev {
-    /* background-color: var(--tg-theme-section-bg-color); */
-    background-color:antiquewhite;
+    background-color: var(--tg-theme-section-bg-color);
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
