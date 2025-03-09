@@ -234,6 +234,19 @@ body {
     cursor: default; 
 }
 
+.name_book_bookev {
+    padding: 2px;
+    margin: 2px;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #5E60F4, #E16370);  
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: default; 
+}
+
 .name_book_12 {
     padding: 4px;
     margin: 2px;
@@ -279,7 +292,8 @@ body {
 }
 
 .about_bookev {
-    background-color: var(--tg-theme-section-bg-color);
+    /* background-color: var(--tg-theme-section-bg-color); */
+    background-color:antiquewhite;
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
@@ -514,4 +528,11 @@ hr {
     margin-bottom: 4px;
     background-size: cover;
     border-radius: 6px;
+}
+
+.inner_other_books_bookev {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-template-rows: 200px;
+    text-align: left;
 }
