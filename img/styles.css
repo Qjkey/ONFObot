@@ -163,6 +163,12 @@ body {
     border-radius: 6px;
 }
 
+.img_bookev {
+    width: 100px;
+    cursor: default; 
+    border-radius: 6px;
+}
+
 .img_bookev_1 {
     width: 100px;
     cursor: default; 
@@ -292,7 +298,8 @@ body {
 }
 
 .about_bookev {
-    background-color: var(--tg-theme-section-bg-color);
+    /* background-color: var(--tg-theme-section-bg-color); */
+    background-color:antiquewhite;
     border: none;
     max-width: 100%;
     padding: 7px 6px 7px 6px;
@@ -522,8 +529,18 @@ hr {
 .diver {
     margin-left: auto;
     margin-right: auto;
-    width: 115px;
+    width: 115px;   
     height: 172.5px;
+    margin-bottom: 4px;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.diver_bookev {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 150px;
     margin-bottom: 4px;
     background-size: cover;
     border-radius: 6px;
@@ -531,7 +548,7 @@ hr {
 
 .inner_other_books_bookev {
     display: grid;
-    grid-template-columns: 1.5fr 3fr;
+    grid-template-columns: 2fr 3fr;
     grid-template-rows: 200px;
     text-align: left;
 }
