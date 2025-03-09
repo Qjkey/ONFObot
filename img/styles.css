@@ -158,8 +158,6 @@ body {
 }
 
 .img {
-    padding: 1px;
-    margin: 1px;
     width: 115px;
     cursor: default; 
     border-radius: 6px;
