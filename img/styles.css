@@ -505,3 +505,13 @@ hr {
 .active_bookev {
     fill: #9F61B4;
 }
+
+.diver {
+    margin-left: auto;
+    margin-right: auto;
+    width: 115px;
+    height: 172.5px;
+    margin-bottom: 4px;
+    background-size: cover;
+    border-radius: 6px;
+}
