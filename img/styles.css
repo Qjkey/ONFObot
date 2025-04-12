@@ -551,3 +551,19 @@ hr {
     grid-template-rows: 200px;
     text-align: left;
 }
+
+.inner_ADS {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 75px;
+    background: #7EC1E9;
+    background: linear-gradient(180deg,rgba(126, 193, 233, 1) 0%, rgba(77, 152, 245, 1) 100%);
+}
+
+.ADS_UPFRONT {
+    display: grid;
+    background: #7EC1E9;
+    background: linear-gradient(180deg,rgba(126, 193, 233, 1) 0%, rgba(77, 152, 245, 1) 100%);
+    border: none;
+    height: 75px;
+}
