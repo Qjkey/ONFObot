@@ -567,3 +567,8 @@ hr {
     border: none;
     height: 75px;
 }
+
+.logo_svg_fill {
+    stroke: var(--tg-theme-button-color);
+    fill: var(--tg-theme-button-color);
+}
