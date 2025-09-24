@@ -42,7 +42,7 @@ body {
     border-radius: 100px;
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
-    background: var(--tg-theme-button_secondary_color);
+    background: var(--tg-theme-button-secondary-color);
     cursor: default;
     text-decoration: none;
 }
@@ -60,7 +60,7 @@ body {
     border-radius: 100px;
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
-    background: var(--tg-theme-button-color);
+    background: var(--tg-theme-button-secondary-color);
     cursor: default;
     text-decoration: none;
 }
@@ -73,7 +73,7 @@ body {
     padding: 0px 15px;
     font-size: 13px;
     color: var(--tg-theme-button-text-color);
-    background: var(--tg-theme-button-color);
+    background: var(--tg-theme-button-secondary-color);
     cursor: default;
     text-decoration: none;
     height: 25px;
@@ -572,4 +572,5 @@ hr {
     stroke: var(--tg-theme-button-color);
     fill: var(--tg-theme-button-color);
 }
+
 
