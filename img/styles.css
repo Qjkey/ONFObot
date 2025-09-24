@@ -42,7 +42,7 @@ body {
     border-radius: 100px;
     font-size: 14px;
     color: var(--tg-theme-button-text-color);
-    background: var(--tg-theme-button-color);
+    background: var(--tg-theme-button_secondary_color);
     cursor: default;
     text-decoration: none;
 }
@@ -572,3 +572,4 @@ hr {
     stroke: var(--tg-theme-button-color);
     fill: var(--tg-theme-button-color);
 }
+
